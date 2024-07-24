@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mdiv{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://test-preparation.ca/wp-content/uploads/2014/05/math6-1.jpg);
+}
+
+input{
+    color: white;
+    background-color: transparent;
+    height: 65px;
+    width: 65px;
+    margin: 6px;
+    border-radius: 10%;
+    background-color: rgb(54, 65, 68);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#output{
+    height: 50px;
+    width: 90%;
+    margin-top: 30px;
+    border: none !important;
+    font-size: 30px;
+    text-align: right;
+    outline: none;
+    
+}
+input[type="button"]{
+    cursor: pointer;
+}
+
+.calculator{
+    height: 600px;
+    width: 360px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(159, 30, 30);
+    border-radius: 20px !important;
+    padding: 20px;
+
+}
+#zero{
+    width: 145px;
+    border-radius: 20px;
+}
+.lstbtn{
+    background-color: rgb(57, 38, 224);
+}
+#output{
+    border-radius: 20px;
+    height: 60px;
+    margin: 15px 20px;
+    background-color: transparent;
+    color: rgb(185, 213, 204);
+}

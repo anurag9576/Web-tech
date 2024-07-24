@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calulator</title>
+     
+</head>
+<body>
+    <div class="mdiv">
+        <div class="calculator" align="center">
+            <form >
+                <div class="op"></div>
+                <div> <input id="output" type="text" name="op" disabled >
+                </div>
+                <div class="input">
+                    <input type="button" name="operator" value="AC" onclick="op.value=''" class="operator1">
+                    <input type="button" name="operato" value="C" onclick="op.value=op.value.substr(0,(op.value.length-1))" class="operator1">
+                    <input type="button" name="operato" value="%" onclick="op.value='%'" class="operator1">
+                    <input type="button" name="operator" value="/" onclick="op.value='/'" class="lstbtn">
+                </div>
+                <div>
+                    <input type="button" name="num" value="7" onclick="op.value +='7'" class="num">
+                    <input type="button" name="num" value="8" onclick="op.value +='8'" class="num">
+                    <input type="button" name="num" value="9" onclick="op.value +='9'" class="num">
+                    <input type="button" name="operator" value="X" onclick="op.value +='*'"  class="lstbtn">
+                </div>
+                <div>
+                    <input type="button" name="num" value="4" onclick="op.value +='4'" class="num">
+                    <input type="button" name="num" value="5"onclick="op.value +='5'" class="num" >
+                    <input type="button" name="num" value="6"onclick="op.value +='6'" class="num">
+                    <input type="button" name="operator" value="-" nclick="op.value +='-'" class="lstbtn">
+                </div>
+                <div>
+                    <input type="button" name="num" value="1" onclick="op.value +='1'" class="num">
+                    <input type="button" name="num" value="2" onclick="op.value +='2'" class="num">
+                    <input type="button" name="num" value="3" onclick="op.value +='3'" class="num">
+                    <input type="button" name="operator" value="+"  onclick="op.value +='+'" class="lstbtn">
+                </div>
+                <div>
+                    <input id="zero" type="button" name="num" value="0" onclick="op.value +='0'" class="num">
+                    <input type="button" name="num" value="." onclick="op.value +='.'" class="num">
+                    <input type="button" name="operator" value="=" onclick="op.value=eval(op.value)" class="lstbtn">
+                </div>
+            </form>
+           
+        </div>
+    </div>
+    
+</body>
+</html>
